@@ -23,9 +23,9 @@ function Header() {
                 className={(isActive) =>
                   'active-nav' + (!isActive ? ' unselected' : '')
                 }
-                to="/signin"
+                to="/login"
               >
-                Sign In
+                SignIn
               </NavLink>
             </li>
             <li>
@@ -35,7 +35,7 @@ function Header() {
                 }
                 to="/signup"
               >
-                Sign Up
+                SignUp
               </NavLink>
             </li>
           </div>
